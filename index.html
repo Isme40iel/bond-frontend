@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bond - Find Your Bond | Accra</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0f;color:white;font-family:Inter,sans-serif}
+.hero{background:linear-gradient(135deg,#7c3aed,#ec4899);padding:60px 20px;text-align:center}
+.hero h1{font-size:48px;font-weight:900}
+.hero p{font-size:20px;margin-top:10px;opacity:0.9}
+.card{max-width:360px;margin:30px auto;background:#1a1a23;border-radius:24px;overflow:hidden;border:1px solid #333}
+.card img{width:100%;height:400px;object-fit:cover}
+.info{padding:20px}
+.info h2{font-size:24px}
+.tag{display:inline-block;background:#2a2a3a;padding:5px 12px;border-radius:20px;margin:5px;font-size:12px}
+.btns{display:flex;gap:15px;justify-content:center;padding:20px}
+.btn{width:60px;height:60px;border-radius:50%;border:none;font-size:24px;cursor:pointer}
+.no{background:#222} .yes{background:linear-gradient(135deg,#7c3aed,#ec4899)}
+.badge{position:fixed;top:20px;right:20px;background:#00ff88;color:black;padding:8px 16px;border-radius:20px;font-weight:bold;font-size:12px}
+a{color:#a78bfa}
+</style>
+</head>
+<body>
+<div class="badge">● LIVE • Owned by Isme40iel</div>
+<div class="hero">
+<h1>BOND</h1>
+<p>Beyond Swipes. Build Bonds.</p>
+<p style="margin-top:20px;font-size:14px">Ghana's Premium Dating App • Built in Accra 6:33AM</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500" alt="Kwame">
+<div class="info">
+<h2>Kwame, 26 • Accra</h2>
+<p style="opacity:0.7;margin:10px 0">Entrepreneur | Loves jollof & deep convos</p>
+<div><span class="tag">🚀 Startup</span><span class="tag">🎵 Afrobeats</span><span class="tag">📚 Books</span></div>
+</div>
+<div class="btns">
+<button class="btn no" onclick="next()">✕</button>
+<button class="btn yes" onclick="match()">❤️</button>
+</div>
+</div>
+
+<div style="text-align:center;padding:40px;opacity:0.6">
+<h3>Your API Backend</h3>
+<p>API: <a href="https://python-backend-api-j8a7.onrender.com/docs" target="_blank">python-backend-api-j8a7.onrender.com/docs</a></p>
+<p style="margin-top:20px">Frontend Repo: github.com/Isme40iel/bond-frontend<br>Backend Repo: github.com/Isme40iel/python-backend-api</p>
+<p style="margin-top:30px">© 2026 Bond • Owned by Isme40iel • Accra, GH</p>
+</div>
+
+<script>
+function match(){alert('💜 IT\'S A BOND! You and Kwame matched! 🎉\n\nYour app is LIVE!\nShare: isme40iel.github.io/bond-frontend/');}
+function next(){alert('Passed - Next profile loading...');}
+</script>
+</body>
+</html>
